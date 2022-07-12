@@ -1,0 +1,877 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 15vh;
+    background-color: #DBEAFF;
+    text-transform: capitalize;
+}
+
+.logo {
+    display: flex;
+    gap: 5px;
+    margin-top: 20px;
+}
+
+.logo p {
+    font-size: xx-large;
+    font-weight: 800;
+    color: #282B6D;
+}
+
+.logo img {
+    width: 30px;
+    height: 30px;
+    margin-top: 3px;
+}
+
+.details {
+    margin-top: 30px;
+}
+
+.details a {
+    text-decoration: none;
+    margin-left: 50px;
+    font-size: medium;
+    font-weight: 550;
+
+}
+
+.details #active {
+    font-size: large;
+    font-weight: 1000;
+    transition: all .10s;
+}
+
+.details a:hover {
+    font-size: large;
+    font-weight: 1000;
+    cursor: pointer;
+}
+
+.details i {
+    margin-left: 8px;
+}
+
+.login {
+    margin-top: 30px;
+
+}
+
+.login a {
+    margin-left: 20px;
+    font-size: medium;
+    font-weight: 550;
+    transition: all .1s;
+}
+
+.login #active {
+    padding: 15px 30px;
+    border-radius: 10px;
+    background-color: #ffff;
+    transition: all .1s;
+}
+
+.login a:hover {
+    padding: 15px 30px;
+    border-radius: 10px;
+    background-color: #5735D2;
+    color: #ffff;
+}
+
+.login #active:hover {
+    padding: 15px 30px;
+    border-radius: 10px;
+    background-color: #5735D2;
+    color: #ffff;
+}
+
+header {
+    width: 100%;
+    height: 70vh;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+    background: linear-gradient( #DBEAFF,#FFFF);
+    /* background-image: ; */
+}
+
+.first {
+    width: 43%;
+    height: 60.5vh;
+    position: absolute;
+    top: 140px;
+    left: 903.8px;
+    background-color: #DDE3EB;
+}
+
+.first .second {
+    width: 100%;
+    height: 3vh;
+    display: flex;
+    gap: 10px;
+    background-color: #ffff;
+}
+
+.first .second .third {
+    margin-top: 3.5px;
+    margin-left: 5px;
+    background-color: #E5E5E5;
+    border-radius: 100%;
+    width: 5%;
+    height: 2vh;
+
+}
+
+.text {
+    text-transform: uppercase;
+    padding-top: 0PX;
+    margin-left: 110px;
+}
+
+.text h3 {
+    color: #FE9168;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.text h1 {
+    text-transform: capitalize;
+    font-weight: 1500;
+    font-size: 60px;
+    color: #282B6D;
+}
+
+.text h1 #bold {
+    border-bottom: solid 2px #5735D2;
+    color: #5735D2;
+}
+
+.text p {
+    margin-top: 15px;
+    font-size: medium;
+    font-weight: lighter;
+    color: #9AA5B6;
+}
+
+.text p #eme {
+    text-transform: capitalize;
+}
+
+header form {
+    margin-top: 50px;
+    margin-left: 110px;
+}
+
+header form button {
+    padding: 20px 50px;
+    border-radius: 10px;
+    text-transform: capitalize;
+    font-weight: 500px;
+    font-size: 20px;
+    border: none;
+    color: #5735D2;
+    background-color: #ffff;
+}
+
+header form #learn {
+    margin-left: 25px;
+    color: #ffff;
+    background-color: #5735D2;
+}
+
+header form button:hover {
+    color: #ffff;
+    background-color: #5735D2;
+}
+
+.another {
+    width: 100%;
+    height: 300vh;
+    background-color: #ffff;
+}
+
+.another .partners {
+    text-align: center;
+}
+
+.another .partners p {
+    margin-top: 70px;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #FE9168;
+    font-weight: 100;
+}
+
+.another .partners h2 {
+    margin-top: 20px;
+    text-transform: capitalize;
+    color: #282B6D;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.another .partners h4 {
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: 300;
+    color: #D7DCE5;
+}
+
+.another .one {
+    display: flex;
+    /* justify-content: space-around; */
+    margin-top: 50px;
+    margin-left: 250px;
+    gap: 40px;
+}
+
+.another .one .two {
+    background-color: #D7DCE5;
+    width: 200px;
+    height: 30px;
+}
+
+.advan {
+    margin-top: 150px;
+    margin-left: 110px;
+    display: flex;
+}
+
+.advan .vantag #tages {
+    text-transform: uppercase;
+    color: #FE9168;
+    font-size: medium;
+    font-weight: 500;
+}
+
+.advan .vantag h1 {
+    text-transform: capitalize;
+    font-size: 45px;
+    font-weight: 880;
+    color: #282B6D;
+    margin-top: 10px;
+}
+
+.advan .needs {
+    margin-top: 100px;
+    margin-left: 400px;
+}
+
+.advan p {
+    color: #9AA5B6;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.desame {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 140px;
+
+}
+
+.desame .same {
+    width: 22%;
+    height: 50vh;
+    border-radius: 20px;
+    background-color: #F8FAFF;
+}
+
+.desame .same img {
+    width: 200px;
+    height: 200px;
+}
+
+.desame .same h1 {
+    margin-left: 40px;
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: 600;
+    color: #282B6D;
+}
+
+.desame .same p {
+    margin-left: 40px;
+    margin-top: 10px;
+    color: #9AA5B6;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+.desame .same h3 {
+    color: #5735D2;
+    margin-top: 15px;
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: capitalize;
+    transition: all.4s;
+}
+
+.desame .same h3:hover {
+    color: #FE9168;
+    transform: scale(1.1);
+}
+
+.excha {
+    margin-top: 180px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    width: 80%;
+    height: auto;
+}
+
+.excha .chan {
+    padding-top: 50px;
+    margin-left: 120px;
+    width: 502px;
+    height: 580px;
+    background-color: #fff;
+    border: solid 2px #D7DCE5;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.excha .chan .ange h2 {
+    color: #9AA5B6;
+    font-size: 20px;
+    font-weight: 850;
+    margin-right: 80px;
+    text-transform: capitalize;
+}
+
+.excha .chan .ange .dol {
+    margin-top: 130px;
+}
+
+.excha .chan .ange .dol .ral {
+    display: flex;
+    margin-left: 35px;
+    padding: 10px 0px;
+    color: #9AA5B6;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.excha .chan .ange .dol .ral .lar {
+    padding: 2px 6px;
+    border-radius: 50%;
+    margin: 0px 10px;
+    color: #9AA5B6;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #F2F3F9;
+}
+
+.serv img {
+    margin-left: 150px;
+    width: 25px;
+    height: 6px;
+}
+
+.serv .dol {
+    margin-top: 125px;
+    font-size: 16px;
+    font-weight: 800;
+    color: #CACCD0;
+    text-transform: capitalize;
+}
+
+.serv .dol h5 {
+    padding-top: 20px;
+}
+
+.serv .dol p {
+    margin-top: 26px;
+}
+
+.serv .dol h4 {
+    margin-top: 25px;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 20px;
+    color: #282B6D;
+}
+
+.states {
+    position: absolute;
+    top: 2130px;
+    left: 200px;
+    border-radius: 20px;
+    background-color: #F7F8FA;
+    height: 10vh;
+    width: 25%;
+    gap: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.states .convert {
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 700;
+    color: #9AA5B6;
+}
+
+.states .convert p {
+    font-size: 30px;
+    margin-top: 10px;
+    font-weight: 900;
+    color: #282B6D;
+}
+
+.states .united {
+    width: 150px;
+    height: 50px;
+    background-color: #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 16px;
+    color: #282B6D;
+    margin-left: 70px;
+    gap: 10px;
+    text-transform: uppercase;
+}
+
+.states .united img {
+    width: 20px;
+    height: 20px;
+}
+
+.states1 {
+    position: absolute;
+    top: 2370px;
+    left: 200px;
+    border-radius: 10px;
+    background-color: #F7F8FA;
+    height: 12vh;
+    width: 25%;
+    gap: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.states1 .convert2 {
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 700;
+    color: #9AA5B6;
+}
+
+.states1 .convert2 p {
+    font-size: 30px;
+    margin-top: 10px;
+    font-weight: 900;
+    color: #282B6D;
+}
+
+.states1 .united3 {
+    width: 150px;
+    height: 50px;
+    background-color: #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 16px;
+    color: #282B6D;
+    margin-left: 40px;
+    gap: 10px;
+    text-transform: uppercase;
+}
+
+.states .united img {
+    width: 20px;
+    height: 20px;
+}
+
+#butt {
+    position: absolute;
+    top: 2495px;
+    left: 205px;
+    padding: 20px 150px;
+    color: #fff;
+    background-color: #FE9168;
+    border: solid 2px #FE9168;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+
+#butt:hover {
+    color: white;
+    background-color: #CACCD0;
+    border: solid 2px #CACCD0;
+}
+
+.para {
+
+    position: absolute;
+    top: 2570px;
+    left: 280px;
+}
+
+.para p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #9AA5B6;
+}
+
+.para p a {
+    color: #282B6D;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 650;
+    transition: ease-in(.4s);
+}
+
+.para p a:hover {
+    color: #9AA5B6;
+    border-bottom: #9AA5B6 3px solid;
+}
+
+.test {
+    margin-left: 200px;
+}
+
+.test h3 {
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #FE9168;
+}
+
+.test h1 {
+    text-transform: capitalize;
+    font-size: 40px;
+    font-weight: 880;
+    margin-top: 20px;
+    color: #282B6D;
+}
+
+.test h4 {
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 35px;
+    color: #9AA5B6;
+}
+
+.test .image {
+    margin-top: 60px;
+    display: flex;
+    gap: 100px;
+}
+
+.test .age {
+    background-color: #F4F5F7;
+    border-radius: 50px;
+    width: 35px;
+    height: 35px;
+}
+
+.test .age img {
+    margin: 5px 5px;
+
+}
+
+.test a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.test a:hover {
+    border-bottom: ;
+    color: #FE9168;
+}
+
+.test #ton {
+    padding: 20px 40px;
+    margin-top: 40px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 550;
+    border: solid 2px #5735D2;
+    background-color: #5735D2;
+}
+
+.test #ton:hover {
+    background-color: #FE9168;
+    border: solid 2px #FE9168;
+    color: #fff;
+}
+
+.the {
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+}
+
+.the .pro h3 {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500px;
+    color: #FE9168;
+}
+
+.the .pro h1 {
+    text-transform: capitalize;
+    font-size: 40px;
+    color: #282B6D;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+.the .pro h4 {
+    margin-top: 35px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #9AA5B6;
+}
+
+.the .pro img {
+    margin-top: 25px;
+}
+
+.the .pro p {
+    margin-top: 15px;
+    color: #282B6D;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.the .pro #mo {
+    padding: 20px 40px;
+    margin-top: 40px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 550;
+    border: solid 2px #5735D2;
+    background-color: #5735D2;
+}
+
+.the .pro #mo:hover {
+    background-color: #FE9168;
+    border: solid 2px #FE9168;
+    color: #fff;
+}
+
+.invoive {
+    margin-right: 350px;
+    width: 470px;
+    height: 500px;
+    border: 2px solid #eef1f780;
+
+}
+
+.invoive .plea {
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.invoive .plea img {
+    margin-left: 55px;
+}
+
+.invoive .plea h4 {
+    margin-left: 40px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: #282B6D;
+    font-weight: 550;
+    text-transform: capitalize;
+}
+
+.invoive .plea h6 {
+    margin-top: 5px;
+    font-size: 15px;
+    color: #9AA5B6;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+
+.invoive p {
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 16px;
+    color: #9AA5B6;
+    font-weight: 750;
+    text-transform: capitalize;
+}
+
+.invoive .sans {
+    background-color: #F7F8FA;
+    width: 85%;
+    height: 10vh;
+    display: flex;
+    margin-left: 30px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: solid 2px #F7F8FA;
+}
+
+.invoive .sans .emilia {
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.invoive .sans .emilia h4 {
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 500;
+    color: #282B6D;
+}
+
+.invoive .sans .emilia h5 {
+    margin-top: 7px;
+    text-transform: capitalize;
+    font-size: 12px;
+    color: #9AA5B6;
+    font-weight: 400;
+
+}
+
+.invoive .sans .emilia h6 {
+    margin-top: 3px;
+    text-transform: capitalize;
+    font-size: 12px;
+    color: #9AA5B6;
+    font-weight: 400;
+
+}
+
+.invoive .sans .due {
+    margin-top: 15px;
+    margin-left: 80px;
+}
+
+.invoive .sans .due h4 {
+    font-size: 14px;
+    font-weight: 200;
+    color: #9AA5B6;
+    text-transform: capitalize;
+}
+
+.invoive .sans .due h5 {
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 7px;
+    color: #282B6D;
+}
+
+.invoive .sans .due h6 {
+    margin-top: 3px;
+    text-transform: capitalize;
+    font-size: 14px;
+    color: #14C186;
+    font-weight: 400;
+}
+
+.invoive .issued {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    text-transform: capitalize;
+}
+
+.invoive .issued .payment {
+    margin-left: 45px;
+}
+
+.invoive .issued .payment h4 {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #9AA5B6;
+}
+
+.invoive .issued .july {
+    margin-right: 50px;
+}
+
+.invoive .issued .july h4 {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #9AA5B6;
+}
+
+.invoive .issued .july .visa {
+    display: flex;
+    justify-content: center;
+}
+
+.invoive .issued .july .visa .siv {
+    width: 60px;
+    height: 35px;
+    text-align: center;
+    padding-top: 7.5px;
+    border-radius: 10px;
+    color: #2566AF;
+    border: 1px solid #EEF1F7;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 550;
+    margin-top: 10px;
+    background-color: #fff;
+}
+
+.invoive .issued .july .visa h4 {
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #CACCD0;
+}
+
+.invoive h5 {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 18px;
+    color: #CACCD0;
+    font-weight: 300;
+}
+
+.invoive h5 a {
+    text-transform: capitalize;
+    font-weight: 800;
+    font-size: 18px;
+    color: #282B6D;
+}
+
+.invoive h5 a:hover {
+    color: #CACCD0;
+    border-bottom: 2px solid #CACCD0;
+}
